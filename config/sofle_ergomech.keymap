@@ -75,7 +75,7 @@
 &trans            &trans  &trans  &trans  &trans  &trans  &kp MINUS         &kp EQUAL          &trans           &trans      &trans   &kp F13
 &trans            &trans  &trans  &trans  &trans  &trans  &trans            &trans             &trans           &trans      &trans   &kp F14
 &kp C_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans  &trans            &trans             &trans           &trans      &trans
-                                                          &kp A             &kp B              &kp C            &kp D       &kp E
+                                                          &trans            &trans             &trans           &trans      &trans
             >;
 
             sensor-bindings =
