@@ -1,8 +1,9 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, '&mmv MOVE_UP', LEFT, DOWN]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
+    LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, '&mkp MB1', '&mkp MB2', LEFT ALT, lower, SPACE, BACKSPACE, raise, RETURN, RALT, RGUI, '&mkp MB3', '&mmv
+      MOVE_RIGHT', '&mmv MOVE_UP', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN']
   lower:
-  - '&studio_unlock'
+  - '`'
   - F1
   - F2
   - F3
@@ -14,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - CAPSLOCK
   - '1'
   - '2'
   - '3'
@@ -37,7 +38,7 @@ layers:
   - '*'
   - (
   - )
-  - '|'
+  - F13
   - {t: ▽, type: trans}
   - '='
   - '-'
@@ -49,7 +50,7 @@ layers:
   - ;
   - ':'
   - \
-  - {t: ▽, type: trans}
+  - F14
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -80,34 +81,34 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
   - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
+  - PAGE UP
+  - HOME
+  - UP ARROW
+  - END
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,11 +127,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - '&mkp MB3'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
