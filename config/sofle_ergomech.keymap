@@ -40,7 +40,13 @@
         OutputChange: OutputChange {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_GUI &kp LC(V)>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_tap>,
+                <&kp LC(V)>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
 
             label = "OUTPUTCHANGE";
         };
