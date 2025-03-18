@@ -30,13 +30,6 @@
     };
 
     macros {
-        altf4: altf4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(F4)>;
-            label = "ALTF4";
-        };
-
         OutputChange: OutputChange {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
