@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   zero: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
-      CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, '', LEFT GUI, two, LEFT ALT, one, SPACE, BACKSPACE, two, RETURN, one, '&OutputChange', '', NEXT, PLAY
+      CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, '', two, LEFT GUI, LEFT ALT, one, SPACE, BACKSPACE, two, RETURN, '&OutputChange', one, '', NEXT, PLAY
       PAUSE, PREVIOUS, MUTE]
   one:
   - '`'
@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '&mkp MB5', type: held}
+  - {type: held}
+  - '&mkp MB5'
   - '&mkp MB4'
   - '&mkp MB2'
   - '&mkp MB1'
