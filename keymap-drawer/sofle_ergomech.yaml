@@ -22,11 +22,11 @@ layers:
   - F13
   - F14
   - F15
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F16
+  - F17
+  - F18
+  - F19
+  - F20
   - {t: ▽, type: trans}
   - CAPSLOCK
   - {t: ▽, type: trans}
