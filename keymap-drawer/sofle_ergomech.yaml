@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', PSCRN, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
-      CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, bluetooth, mouse, LEFT GUI, LEFT ALT, extra, SPACE, BACKSPACE, mouse, RETURN, fn, extra, '', NEXT, PLAY
-      PAUSE, PREVIOUS, MUTE]
-  fn:
+  ming: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', PSCRN, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
+      CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, bt, m, LEFT GUI, LEFT ALT, layer, SPACE, BACKSPACE, m, RETURN, function, layer, '', NEXT, PLAY PAUSE,
+    PREVIOUS, MUTE]
+  function:
   - F1
   - F2
   - F3
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  extra:
+  layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,7 +133,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  mouse:
+  m:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - '&msc SCRL_UP'
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
-  bluetooth:
+  bt:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
