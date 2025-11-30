@@ -92,12 +92,12 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans    &trans          &trans          &trans           &trans    &trans         &trans           &trans          &trans           &trans          &trans
-&trans  &trans    &trans          &mmv MOVE_UP    &trans           &trans    &kp PAGE_UP    &kp HOME         &kp UP_ARROW    &kp END          &trans          &trans
-&trans  &mkp MB3  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans          &trans
-&trans  &trans    &trans          &trans          &trans           &trans    &trans         &trans           &trans          &trans           &trans          &trans
-&trans  &trans    &mkp MB5        &mkp MB4        &mkp MB2         &mkp MB1  &trans         &trans           &trans          &trans           &trans
-                                                                             &trans         &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_LEFT   &msc SCRL_DOWN
+&trans  &trans  &trans          &trans          &trans           &trans    &trans         &trans           &trans          &trans           &trans          &trans
+&trans  &trans  &mkp MB4        &mmv MOVE_UP    &mkp MB5         &trans    &kp PAGE_UP    &kp HOME         &kp UP_ARROW    &kp END          &trans          &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans          &trans
+&trans  &trans  &trans          &trans          &trans           &trans    &trans         &trans           &trans          &trans           &trans          &trans
+&trans  &trans  &trans          &mkp MB3        &mkp MB2         &mkp MB1  &trans         &trans           &trans          &trans           &trans
+                                                                           &trans         &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_LEFT   &msc SCRL_DOWN
             >;
 
             sensor-bindings =
@@ -107,7 +107,7 @@
 
         bt {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &studio_unlock
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
@@ -116,17 +116,7 @@
             >;
 
             label = "bluetooth";
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                &trans  &trans  &trans  &trans  &trans
-            >;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
