@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   mingchai: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DEL, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, bluetooth, mouse, LEFT GUI, LEFT ALT, function, SPACE, BACKSPACE, mouse, RETURN, function, RALT,
-    '', NEXT, PLAY PAUSE, PREVIOUS, MUTE]
+    LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RIGHT CONTROL, bluetooth, mouse, LEFT GUI, LEFT ALT, function, SPACE, BACKSPACE, mouse, RETURN, function, RIGHT
+      SHIFT, '', NEXT, PLAY PAUSE, PREVIOUS, MUTE]
   function:
   - F1
   - F2
