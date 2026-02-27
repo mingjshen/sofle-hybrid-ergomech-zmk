@@ -4,6 +4,7 @@ layers:
     LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, RSHFT, bluetooth, mouse, LEFT GUI, LEFT ALT, function, SPACE, BACKSPACE, mouse, RETURN, function, RCTRL, '', NEXT,
     PLAY PAUSE, PREVIOUS, MUTE]
   function:
+  - F12
   - F1
   - F2
   - F3
@@ -15,7 +16,6 @@ layers:
   - F9
   - F10
   - F11
-  - F12
   - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
